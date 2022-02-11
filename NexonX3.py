@@ -1,6 +1,6 @@
 #!/usr/bin/python2
 #coding=utf-8
-#The Credit For This Code Goes To lovehacker
+#The Credit For This Code Goes To nexon
 #If You Wanna Take Credits For This Code, Please Look Yourself Again...
 #Reserved2020
 
@@ -48,7 +48,7 @@ def jalan(z):
 		sys.stdout.flush()
 		time.sleep(0.07)
 
-#Dev:love_hacker
+#Dev:nexon
 ##### LOGO #####
 logo = """
        \033[1;91m:▒▒▒▒███▒███▒███▒███▒▒▒▒▒▒▒▒▒▒:
@@ -61,9 +61,9 @@ logo = """
 \033[1;95m♡╭──────────•◈•──────────╮♡\033[1;96m-LegendNexon-\033[1;95m♡╭──────────•◈•──────────╮♡
 \033[1;92m..........................LegendNexon......................
 \033[1;93m╔╗ ╔╗╔═╦╦╦═╗ ╔╗╔╦═╦╦╗
-\033[1;93m║║ ║╚╣║║║║╩╣ ╚╗╔╣║║║║   Nepal
+\033[1;93m║║ ║╚╣║║║║╩╣ ╚╗╔╣║║║║   NEPAl
 \033[1;93m╚╝ ╚═╩═╩═╩═╝═ ╚╝╚═╩═╝ 
-\033[1;95m♡╰──────────•◈•──────────╯♡\033[1;96mBlackMafia\033[1;95m♡╰──────────•◈•──────────╯♡"""
+\033[1;95m♡╰──────────•◈•──────────╯♡\033[1;96mLegendNexon\033[1;95m♡╰──────────•◈•──────────╯♡"""
 
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -93,7 +93,7 @@ print  """
 \033[1;95m♡╭──────────•◈•──────────╮♡\033[1;96mLegendNexon\033[1;95m♡╭──────────•◈•──────────╮♡
 \033[1;94mAuthor\033[1;91m: \033[1;91mllegendnexon
 \033[1;94mLegendNexon\033[1;91m: \033[1;91▒▓██████████████]99.9
-\033[1;94mFacebook\033[1;91m: \033[1;91mnexondadz
+\033[1;94mFacebook\033[1;91m: \033[1;91mNexondadz
 \033[1;94mWhatsapp\033[1;91m: \033[1;91m+9779809124168
 \033[1;95m♡╰──────────•◈•──────────╯♡\033[1;96mLegendNexon\033[1;95m♡╰──────────•◈•──────────╯♡"""
 jalan('              \033[1;96m....................LegendNexon.....................:')
@@ -306,7 +306,7 @@ def pilih_super():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:love_hacker
+			pass #Dev:nexon
 		try:
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			b = json.loads(a.text)
@@ -417,7 +417,7 @@ def pilih_super():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print "\033[1;95m♡──────────•◈•──────────♡\033[1;96mLegendNexon\033[1;95m♡──────────•◈•──────────♡"
-	print "  \033[1;93m«---•◈•---Developed By love---•◈•---»" #Dev:love_hacker
+	print "  \033[1;93m«---•◈•---Developed By Nexon---•◈•---»" #Dev:nexon
 	print '\033[1;91mProcess Has Been Completed\033[1;92m....'
 	print"\033[1;91mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;91m"+str(len(oks))+"\033[1;97m/\033[1;95m"+str(len(cekpoint))
 	print """
@@ -427,7 +427,7 @@ def pilih_super():
              [███████████████]
              ◥⊙▲⊙▲⊙▲⊙▲⊙▲⊙◤
 ♡──────────────•◈•──────────────♡.
-: \033[1;96m .....lovehacker  LegendNexon........... \033[1;93m :
+: \033[1;96m .....NexonHAcker  LegendNexon........... \033[1;93m :
 ♡──────────────•◈•──────────────♡.' 
                 whatsapp Num
                +9779809124168"""
